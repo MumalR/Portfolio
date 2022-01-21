@@ -14,7 +14,7 @@ function Footer() {
 				<a  className='contact'
                         href="mailto:mumalrathore09@gmail.com?subject=I'd love to see more of your work!"
                         target='_blank'
-                        aria-label='gmail'> Contact Me! 
+                        aria-label='gmail'> Contact Me <i class="fas fa-heart"></i>
                         </a>
 			</div>
 			<div className  = 'rolls big'>

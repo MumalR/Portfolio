@@ -7,6 +7,7 @@ import webre from './Images/Web-Dev/webre-c.png';
 import web from './Images/IOT/vid.mp4';
 import ai from './Images/ML/ai.jpg';
 import minecraft from './Images/ML/minecraft.jpg';
+import roll from './Images/Rolls.png';
 
 function Cards() {
     return (
@@ -51,6 +52,7 @@ function Cards() {
                     </ul>
                 </div>
             </div>
+            <img src = {roll} className='roll'/>
         </div>
     );
 };
