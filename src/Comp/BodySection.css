@@ -24,7 +24,7 @@
 }
 
 .hero-bgimg-wrap {
-	background: rgba(255, 255, 255, 0.2);
+	background: rgba(255, 255, 255, 0.4);
 	width:100%;
 	display: flex;
 	align-items:flex-start;
@@ -34,9 +34,9 @@
 	padding-right:4em;;
 }
 .callup {
-	color:#1b1c1b;
+	color:rgb(45, 48, 45);
 	font-size:5em;
-	width:34%;
+	width:30%;
 	padding-top:2em;
 	padding-left:2rem;
 }

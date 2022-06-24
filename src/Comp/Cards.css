@@ -36,6 +36,12 @@
     display: flex;
     flex: 1;
     margin: 0 1rem;
+  }
+  
+  .rd {
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
   }
   
@@ -43,13 +49,26 @@
     display: flex;
     flex-flow: column;
     width: 100%;
+    overflow: hidden;
+    text-decoration: none;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
+  }
+
+  .cards-itemV-link {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
     overflow: hidden;
     text-decoration: none;
+    box-shadow: 0 1px 0px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 20px;
   }
+
   
   .cards-item-pic-wrap {
     position: relative;
@@ -120,10 +139,47 @@
     line-height: 24px;
   }
 
-  .roll{
-    width: 50%;
+  .about-sec {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
-  
+
+  .roll{
+    width: 45%;
+  }
+
+  .about-text {
+    width: 48%;
+    font-family: 'Marcellus', serif;
+  }
+  .green-text{
+    color: green;
+    font-size: smaller;
+    display: inline;
+    font-family: 'Meddon', cursive;
+  }
+
+  .green-plain-text {
+    color: darkgreen;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  div.red-text{
+    color: gray;
+    display: inline;
+    font-family: 'Marcellus', cursive;
+  }
+
+  .deco-text {
+    font-family: 'Meddon', cursive;
+    display: inline;
+  }
+
+  .text-sm {
+    font-size: 4px;
+  }
   @media only screen and (min-width: 1200px) {
     .content-blog-container {
       width: 84%;

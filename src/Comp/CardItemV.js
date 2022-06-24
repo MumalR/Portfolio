@@ -5,7 +5,7 @@ function CardItemV(props) {
     return(
         <>
         <li className='cards-item'>
-            <Link className ='cards-item-link' to={props.path}>
+            <Link className ='cards-itemV-link' to={props.path}>
                 <figure className ='cards-item-pic-wrap' data-category={props.label}>
                     <video src = {props.src} loop autoPlay muted alt = 'Timer' className = 'cards-item-img'></video>
                 </figure>
